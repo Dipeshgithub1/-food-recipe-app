@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipe App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Food Recipe App</h1>
+            </div>
+            <form id="searchForm">
+                <input type="text" placeholder="Search for Recipe" class="searchBox" />
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Discover Delicious Recipes</h2>
+            <p>Explore, Cook, and Share</p>
+            <button class="cta-button">Get Started</button>
+        </section>
+
+        <section class="search-by-letter">
+            <h3>Search by First Letter</h3>
+            <input type="text" placeholder="Enter a letter" class="letterBox" maxlength="1"/>
+            <button id="searchByLetterButton">Search</button>
+        </section>
+
+        <section class="featured-recipes">
+            <h3>Featured Recipes</h3>
+            <div class="recipe-grid">
+                <div class="recipe-card">
+                    <img src="recipe1.jpg" alt="Recipe 1">
+                    <h4>Recipe 1</h4>
+                    <a href="#" class="view-recipe-button">View Recipe</a>
+                </div>
+                <div class="recipe-card">
+                    <img src="recipe2.jpg" alt="Recipe 2">
+                    <h4>Recipe 2</h4>
+                    <a href="#" class="view-recipe-button">View Recipe</a>
+                </div>
+                <div class="recipe-card">
+                    <img src="recipe3.jpg" alt="Recipe 3">
+                    <h4>Recipe 3</h4>
+                    <a href="#" class="view-recipe-button">View Recipe</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="search-results">
+            <h3>Search Results</h3>
+            <div id="results"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Food Recipe App. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
