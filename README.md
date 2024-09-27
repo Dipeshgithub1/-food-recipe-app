@@ -1,38 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Recipe App - README</title>
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #121212;
-            color: #ffffff;
-            margin: 0;
-            padding: 20px;
-        }
-        h1, h2, h3 {
-            color: #ffcc00;
-        }
-        code {
-            background-color: #272727;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        pre {
-            background-color: #272727;
-            padding: 10px;
-            border-radius: 4px;
-            overflow: auto;
-        }
-    </style>
-</head>
-<body>
-    <h1>Food Recipe App</h1>
-    
-    <h2>Overview</h2>
-    <p>The Food Recipe App is a web application designed to help users discover, explore, and share delicious recipes. With a user-friendly interface and intuitive navigation, this app allows users to search for recipes by name or by the first letter of the dish. The app is ideal for food enthusiasts, home cooks, and anyone looking to try new culinary creations.</p>
+
+    # The Food Recipe App is a web application designed to help users discover, explore, and share delicious recipes. With a user-friendly interface and intuitive navigation, this app allows users to search for recipes by name or by the first letter of the dish. The app is ideal for food enthusiasts, home cooks, and anyone looking to try new culinary creations.</p>
 
     <h2>Features</h2>
     <ul>
